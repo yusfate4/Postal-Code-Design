@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Postal Code Design</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <header>
+        <nav class="navbar">
+          <div class="nav-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M12 0L0 9.998V24H7.998V16H16V24H23.998V9.998L12 0Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="push-left">
+            <button
+              id="menu-toggler"
+              data-class="menu-active"
+              class="hamburger"
+            >
+              <span class="hamburger-line hamburger-line-top"></span>
+              <span class="hamburger-line hamburger-line-middle"></span>
+              <span class="hamburger-line hamburger-line-bottom"></span>
+            </button>
+
+            <ul id="primary-menu" class="menu nav-menu">
+              <form action="#" class="menu-item current-menu-item">
+                <input
+                  class="nav__link"
+                  type="search"
+                  placeholder=" Postcode or place name"
+                  name="search"
+                />
+                <button type="submit">Search</button>
+              </form>
+
+              <div class="postcode">
+                <li class="menu-item dropdown">
+                  <a class="nav__link" href="#">
+                    Postcode Lists
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                  <ul class="sub-nav">
+                    <li><a class="sub-nav__link" href="#">By Country</a></li>
+                    <li>
+                      <a class="sub-nav__link" href="#">By Introduction Date</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="menu-item dropdown">
+                  <a class="nav__link" href="#">
+                    Postcode Maps
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                  <ul class="sub-nav">
+                    <li><a class="sub-nav__link" href="#">User Type</a></li>
+                    <li>
+                      <a class="sub-nav__link" href="#">Use Category</a>
+                    </li>
+                    <li>
+                      <a class="sub-nav__link" href="#">Council Tax Band</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="menu-item">
+                  <a class="nav__link" href="#">Nearest Postcodes</a>
+                </li>
+                <li class="menu-item">
+                  <a class="nav__link" href="#">Postcode Lottery</a>
+                </li>
+              </div>
+
+              <div class="dropdown-5">
+                <li class="menu-item dropdown">
+                  <a class="nav__link" href="#">
+                    Halp and Information
+                    <i class="fa fa-caret-down"></i>
+                  </a>
+                  <ul class="sub-nav">
+                    <li>
+                      <a class="sub-nav__link" href="#">About this Website</a>
+                    </li>
+                    <li>
+                      <a class="sub-nav__link" href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
