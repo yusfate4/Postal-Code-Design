@@ -502,7 +502,6 @@ button.search_3:hover {
 button.search_4 {
 
   display: inline-flex;
-  /* transform: rotate(-179.894deg); */
   padding: 0.57019rem 0.31819rem 0.64119rem 0.89856rem;
   justify-content: flex-end;
   align-items: center;
