@@ -6,6 +6,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Postal Code Design</title>
+      <!-- Fontawesome icons -->
+      <script
+      src="https://kit.fontawesome.com/15df32d772.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -90,28 +95,352 @@
                 <li class="menu-item">
                   <a class="nav__link" href="#">Postcode Lottery</a>
                 </li>
-              </div>
 
-              <div class="dropdown-5">
-                <li class="menu-item dropdown">
-                  <a class="nav__link" href="#">
-                    Halp and Information
-                    <i class="fa fa-caret-down"></i>
-                  </a>
-                  <ul class="sub-nav">
-                    <li>
-                      <a class="sub-nav__link" href="#">About this Website</a>
-                    </li>
-                    <li>
-                      <a class="sub-nav__link" href="#">Privacy Policy</a>
-                    </li>
-                  </ul>
-                </li>
+                <div class="dropdown-5">
+                  <li class="menu-item dropdown">
+                    <a class="nav__link" href="#">
+                      Help and Information
+                      <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="sub-nav dropdown-5-1">
+                      <li>
+                        <a class="sub-nav__link" href="#">About this Website</a>
+                      </li>
+                      <li>
+                        <a class="sub-nav__link" href="#">Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </li>
+                </div>
               </div>
             </ul>
           </div>
         </nav>
       </header>
+
+      <!-- Main content -->
+      <main class="container">
+        <section class="check">
+          <h1>Check My Postcode</h1>
+        </section>
+
+        <section class="container-1">
+          <section class="container-1-sub">
+            <section class="search-field search_1 menu nav-menu nosubmit">
+              <form action="#" class="menu-item current-menu-item">
+                <input
+                  class="nosubmit"
+                  type="search"
+                  placeholder="Search for a student id or student name"
+                  name="search"
+                />
+                <button type="submit">Search</button>
+              </form>
+            </section>
+            <section class="locate">
+              <p class="locate_para">
+                Or use your device's geolocation service to find ZUR000011RJE near
+                you
+              </p>
+              <div class="locate_image">
+
+                <button class="locate_button">
+                                  Locate Me!
+                </button>
+              </div>
+            </section>
+          </section>
+        </section>
+      </main>
+      <!-- Booking section -->
+      <section class="booking_container">
+        <div class="book_now">
+          <div class="book_now_logo"></div>
+          <!-- <h2>Booking<span>.com</span></h2> -->
+          <section class="search-field search_2">
+            <form action="#" >
+              <input
+              class="search-field-form"
+                type="search"
+                placeholder="e.g student id, name, gender ....."
+                name="search"
+              />
+
+              <input type="date" name="search" id="input_2" />
+
+              <input type="date" name="search" id="input_2" />
+
+              <button class="search_3" type="submit">Search</button>
+              <button class="search_4" type="submit">
+                <!-- <i class="fa-solid fa-person"></i> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                  <g clip-path="url(#clip0_7_55)">
+                    <path d="M18.8298 16.6178C19.7708 16.0948 19.6489 14.0794 18.5583 12.1131C18.0905 11.2665 17.5154 10.5809 16.9402 10.1015C16.2524 10.612 15.4193 10.8888 14.5629 10.8914C13.7051 10.8895 12.8705 10.6127 12.1817 10.1015C11.6065 10.5809 11.0329 11.2672 10.5635 12.1131C9.47226 14.0786 9.35185 16.0948 10.2951 16.6178C10.7154 16.8571 11.1586 16.6776 11.6157 16.2374C11.5301 16.7117 11.4873 17.1927 11.4876 17.6746C11.4876 19.9277 12.3619 21.7483 13.4378 21.7483C14.0866 21.7483 14.4079 21.0849 14.5621 20.0703C14.7155 21.078 15.0376 21.7483 15.6818 21.7483C16.7531 21.7483 17.6342 19.9269 17.6342 17.6746C17.6342 17.1684 17.5867 16.6853 17.5054 16.2382C17.9655 16.6792 18.4073 16.8617 18.8291 16.6193L18.8298 16.6178ZM14.5613 10.1246C14.9964 10.1311 15.4285 10.0509 15.8323 9.8889C16.2362 9.72685 16.6038 9.48609 16.9137 9.18064C17.2237 8.87519 17.4698 8.51115 17.6377 8.1097C17.8056 7.70825 17.892 7.27741 17.8918 6.84225C17.8917 6.4071 17.805 5.97632 17.6368 5.57499C17.4686 5.17366 17.2222 4.80978 16.9121 4.50455C16.6019 4.19932 16.2342 3.95882 15.8302 3.79706C15.4262 3.63529 14.9941 3.55549 14.559 3.56229C13.6975 3.57576 12.8758 3.92753 12.2715 4.54164C11.6671 5.15575 11.3285 5.98293 11.3288 6.84456C11.3291 7.70618 11.6683 8.53312 12.2731 9.14681C12.8779 9.7605 13.6998 10.1117 14.5613 10.1246ZM21.152 12.2059C21.8528 12.1854 22.518 11.8926 23.0064 11.3897C23.4949 10.8868 23.7681 10.2133 23.7681 9.51219C23.7681 8.81111 23.4949 8.13762 23.0064 7.63469C22.518 7.13176 21.8528 6.83898 21.152 6.8185C20.4373 6.8186 19.752 7.10258 19.2468 7.60796C18.7416 8.11334 18.4578 8.79873 18.4579 9.51334C18.458 10.228 18.742 10.9133 19.2473 11.4185C19.7527 11.9237 20.4381 12.2075 21.1527 12.2074L21.152 12.2059ZM24.4342 13.8394C24.0493 13.143 23.5784 12.5801 23.106 12.1867C22.5409 12.6054 21.8568 12.8325 21.1535 12.8347C20.5737 12.8347 20.0338 12.676 19.5614 12.413C19.9418 13.2512 20.1772 14.1001 20.221 14.8593C20.293 16.0219 19.9295 16.8839 19.2025 17.2865C19.0467 17.3721 18.8773 17.4303 18.7018 17.4583C18.658 17.7589 18.6281 18.0718 18.6281 18.4016C18.6281 20.2521 19.3452 21.7467 20.2294 21.7467C20.7616 21.7467 21.027 21.2023 21.1527 20.3694C21.2777 21.1977 21.5423 21.7467 22.073 21.7467C22.9511 21.7467 23.6758 20.2513 23.6758 18.4031C23.6758 17.9867 23.6352 17.5902 23.5684 17.2221C23.9457 17.5848 24.3092 17.7344 24.6559 17.535C25.4281 17.1055 25.3284 15.4506 24.4335 13.8386L24.4342 13.8394ZM7.97069 12.2059C8.50331 12.2056 9.02388 12.0474 9.46659 11.7512C9.9093 11.4551 10.2543 11.0344 10.4579 10.5422C10.6615 10.05 10.7146 9.50855 10.6105 8.9862C10.5064 8.46385 10.2498 7.98409 9.87307 7.60758C9.49634 7.23106 9.01644 6.9747 8.49403 6.87091C7.97162 6.76711 7.43016 6.82053 6.93811 7.02443C6.44606 7.22832 6.02552 7.57353 5.72964 8.01641C5.43376 8.45929 5.27584 8.97996 5.27584 9.51258C5.27604 10.2272 5.56003 10.9126 6.06537 11.4179C6.57071 11.9232 7.25603 12.2072 7.97069 12.2074V12.2059ZM9.91475 17.2842C8.69386 16.6055 8.5819 14.5817 9.56505 12.4114C9.07909 12.6873 8.53026 12.8334 7.97145 12.8355C7.23831 12.8355 6.56651 12.5901 6.01589 12.1867C5.54425 12.5794 5.07415 13.1423 4.68764 13.8378C3.79268 15.4514 3.69452 17.1063 4.46754 17.5342C4.81264 17.7321 5.17691 17.5841 5.55192 17.2229C5.48304 17.6123 5.4484 18.0069 5.44839 18.4023C5.44839 20.2521 6.16543 21.746 7.04965 21.746C7.58187 21.746 7.84722 21.2015 7.97299 20.3694C8.09952 21.1977 8.3641 21.7467 8.89325 21.7467C9.77288 21.7467 10.4961 20.2513 10.4961 18.4031C10.4961 18.0711 10.4654 17.7574 10.4217 17.4568C10.2442 17.4288 10.0729 17.3701 9.91552 17.2835L9.91475 17.2842Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_7_55">
+                      <rect width="24.5404" height="24.5404" fill="white" transform="translate(0.878906 0.494385)"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+                Guests
+              </button>
+
+            </form>
+          </section>
+        </div>
+      </section>
+      <!--End of Booking section -->
+
+      <!-- Ads section -->
+      <section class="ads">
+        <div class="box-grid">
+          <div class="box-flex item-1">
+            <div class="box-caption">
+              <h5>
+                Trondheim
+                <span></span>
+              </h5>
+              <p>45 properties</p>
+            </div>
+          </div>
+          <div class="box-flex item-2">
+            <div class="box-caption">
+              <h5>
+                Sixt
+                <span></span>
+              </h5>
+              <p>21 properties</p>
+            </div>
+          </div>
+          <div class="box-flex item-3">
+            <div class="box-caption">
+              <h5>
+                Bransgore
+                <span></span>
+              </h5>
+              <p>4 properties</p>
+            </div>
+          </div>
+
+          <div class="box-flex item-4">
+            <div class="city-list-1">
+              <p><span></span> Trondheim</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-2">
+              <p><span></span> Sixt</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-3">
+              <p><span></span> Bransgore</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-4">
+              <p><span></span> Cala Anguila</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-5">
+              <p><span></span> Chiusanico</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-6">
+              <p><span></span> KavoÚsion</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-7">
+              <p><span></span> Pieve Di Ledro</p>
+              <small>from</small>
+            </div>
+            <div class="city-list-8">
+              <p><span></span> Vierville-sur-Mer</p>
+              <small>from</small>
+            </div>
+          </div>
+        </div>
+        <!-- end: box-flex -->
+        <!-- end: box.grid -->
+        <div class="city">
+          <div class="city-grid one"><span>Double from</span></div>
+          <div class="city-grid two"><span>Double from</span></div>
+          <div class="city-grid three"><span>Double from</span></div>
+
+          <div class="city-grid">
+            <button>
+              <a href="#"
+                ><img
+                  src="/assets/images/search-icon.svg"
+                  alt="search-icon"
+                  class="search-icon"
+                />
+                Discover</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--End of Ads section -->
+
+        <!-- Popular students ID -->
+        <section class="popular_container">
+          <div class="student_id">
+            <h2>Popular ZUR000011RJE</h2>
+              <a class="code">SA99&nbsp;1DU</a>
+              <a class="code">W1A&nbsp;1AA</a>
+              <a class="code">SW1A&nbsp;1AA</a>
+              <a class="code">WC2N&nbsp;5DU</a>
+              <a class="code">LE87&nbsp;2BB</a>
+              <a class="code">SL6&nbsp;3QQ</a>
+              <a class="code">BD1&nbsp;1AH</a>
+              <a class="code">WC2H&nbsp;9JQ</a>
+              <a class="code">EC1V&nbsp;2NX</a>
+              <a class="code">PO16&nbsp;7GZ</a>
+  
+              <a class="code-1">B61&nbsp;7HA</a>
+              <a class="code-1">BA3&nbsp;4YF</a>
+              <a class="code-1">KY11&nbsp;8ST</a>
+              <a class="code-1">DY13&nbsp;0NW</a>
+              <a class="code-1">L20&nbsp;7YW</a>
+              <a class="code-1">WS13&nbsp;8UR</a>
+              <a class="code-1">SR43&nbsp;2SB</a>
+              <a class="code-1">SA99&nbsp;1BT</a>
+              <a class="code-1">UB7&nbsp;0LB</a>
+              <a class="code-1">SW1A&nbsp;2AA</a>
+              <a class="code-1">PR3&nbsp;1XB</a>
+              <a class="code-1">BT2&nbsp;8HQ</a>
+              <a class="code-1">G51&nbsp;1DA</a>
+              <a class="code-1">B15&nbsp;2TE</a>
+              <a class="code-1">SW1W&nbsp;0NY</a>
+              <a class="code-1">M9&nbsp;5SD</a>
+              <a class="code-1">EH3&nbsp;1GE</a>
+              <a class="code-1">PR25&nbsp;9FR</a>
+              <a class="code-1">SW1A&nbsp;0AA</a>
+              <a class="code-1">AL10&nbsp;9WN</a>
+              <a class="code-1">SA99&nbsp;1YW</a>
+              <a class="code-1">IG11&nbsp;7RN</a>
+              <a class="code-1">CV3&nbsp;9SD</a>
+              <a class="code-1">W1A&nbsp;6US</a>
+              <a class="code-1">SR5&nbsp;9QY</a>
+              <a class="code-1">M19&nbsp;3AD</a>
+              <a class="code-1">NE12&nbsp;8NW</a>
+              <a class="code-1">NN18&nbsp;8UA</a>
+              <a class="code-1">N1&nbsp;7GU</a>
+              <a class="code-1">DL98&nbsp;1AT</a>
+              <a class="code-1">BT1&nbsp;9WY</a>
+              <a class="code-1">DA15&nbsp;0BQ</a>
+              <a class="code-1">EC1A&nbsp;1AA</a>
+              <a class="code-1">M5&nbsp;4WT</a>
+              <a class="code-1">SO14&nbsp;0AG</a>
+              <a class="code-1">PE32&nbsp;1TE</a>
+              <a class="code-1">HD8&nbsp;1DY</a>
+              <a class="code-1">WV98&nbsp;2AD</a>
+              <a class="code-1">DL1&nbsp;9AG</a>
+              <a class="code-1">CV4&nbsp;7ES</a>
+              <a class="code-1">CV21&nbsp;9FU</a>
+              <a class="code-1">BT1&nbsp;9PT</a>
+              <a class="code-1">N15&nbsp;6RS</a>
+              <a class="code-1">M1&nbsp;1AG</a>
+              <a class="code-1">BS9&nbsp;0DP</a>
+              <a class="code-1">BN21&nbsp;9AT</a>
+              <a class="code-1">E1&nbsp;6AN</a>
+              <a class="code-1">E1&nbsp;6JJ</a>
+              <a class="code-1">WV14&nbsp;4BZ</a>
+              <a class="code-1">PR3&nbsp;1NJ</a>
+              <a class="code-1">WA7&nbsp;9DY</a>
+              <a class="code-1">BR1&nbsp;3BX</a>
+              <a class="code-1">SY5&nbsp;8NF</a>
+              <a class="code-1">CV4&nbsp;7AL</a>
+              <a class="code-1">NE38&nbsp;9EX</a>
+              <a class="code-1">M4&nbsp;6GA</a>
+              <a class="code-1">FY8&nbsp;5DX</a>
+              <a class="code-1">DE1&nbsp;0NQ</a>
+              <a class="code-1">BH16&nbsp;6FA</a>
+              <a class="code-1">NG20&nbsp;8RY</a>
+              <a class="code-1">BN1&nbsp;6WH</a>
+              <a class="code-1">SK14&nbsp;4TU</a>
+              <a class="code-1">WC1X&nbsp;0HD</a>
+              <a class="code-1">E17&nbsp;9RD</a>
+              <a class="code-1">WA5&nbsp;9QG</a>
+              <a class="code-1">IV11&nbsp;8YS</a>
+              <a class="code-1">NP11&nbsp;4RB</a>
+              <a class="code-1">CV34&nbsp;4LL</a>
+              <a class="code-1">SN38&nbsp;1NW</a>
+              <a class="code-1">SA6&nbsp;7JL</a>
+              <a class="code-1">SA99&nbsp;1AB</a>
+              <a class="code-1">ST4&nbsp;5BW</a>
+              <a class="code-1">BN3&nbsp;8EZ</a>
+              <a class="code-1">EX2&nbsp;7JH</a>
+              <a class="code-1">SA99&nbsp;1ZW</a>
+              <a class="code-1">EH54&nbsp;0HH</a>
+              <a class="code-1">M14&nbsp;4TY</a>
+              <a class="code-1">LE87&nbsp;2GA</a>
+              <a class="code-1">EC1A&nbsp;1BB</a>
+              <a class="code-1">S60&nbsp;1AA</a>
+              <a class="code-1">CF10&nbsp;4GA</a>
+              <a class="code-1">BN99&nbsp;6RB</a>
+              <a class="code-1">BH16&nbsp;6FH</a>
+              <a class="code-1">M21&nbsp;9NP</a>
+              <a class="code-1">LE4&nbsp;6JL</a>
+              <a class="code-1">SA99&nbsp;1AF</a>
+              <a class="code-1">NE98&nbsp;1ZZ</a>
+              <a class="code-1">NW8&nbsp;0EG</a>
+              <a class="code-1">SA99&nbsp;1BN</a>
+              <a class="code-1">N5&nbsp;1AX</a>
+            </div>
+          </div>
+        </section>
+        <!--End of Popular students ID -->
+
+           <!-- Information section -->
+      <section class="information">
+        <div class="information-1">
+          <div class="info">
+          <p class="info-1"> <span class="info-bold"> Use Check My Postcode to find out all the key information for your local ZUR000011RJE.</span></p>
+          <p class="info-1"> Find out typical <span class="info-bold"> house prices, council tax bands and business rateable values.</span></p>
+          <p class="info-1"> See who represents you in <span class="info-bold"> parliament and your local councils,</span> and discover how Ofsted has rated local  <span>schools.</span></p>
+          <p class="info-1">Check whether  <span class="info-bold"> superfast broadband</span> is available, and see how popular it is.</p>
+          <p class="info-1">See where your ZUR000011RJE is on a  <span class="info-bold"> map. </span> </p>
+          <p class="info-1"> Find the <span class="info-bold">nearest ZUR000011RJE </span> to where you are right now.</p>
+          <p class="info-1"> <span class="info-bold"> Read what other people have said about your ZUR000011RJE, and leave your own comments for others to read.</span></p>
+        </div>
+        </div>
+      </section>
+           <!-- End of Information section -->
+
+
+      <!-- footer-one -->
+      <section class="footer-1">
+        <div class="footer-1 list">
+            <a href="#">Search</a>
+            <a href="#">ZUR000011RJE by County</a>
+            <a href="#">ZUR000011RJE by Introduction Date</a>
+            <a href="#">ZUR000011RJE Near Me</a>
+            <a href="#">ZUR000011RJE Lottery</a>
+        </div>
+
+        <div class="footer-1 list list-1">
+          <a href="#">ZUR000011RJE Map by User Type</a>
+          <a href="#">ZUR000011RJE Map by Use Category</a>
+          <a href="#">ZUR000011RJE Map by Council Tax</a>
+      </div>
+
+      <div class="footer-1 list list-2">
+        <a href="#">About this Website</a>
+        <a href="#">Disclaimer and Limitations</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+
+      </section>
+      <!--End of footer-one -->
+
+
+      <!-- footer -->
+      <footer>
+        <p>Check My ZUR000011RJE</p>
+        <p>CheckMyStudentId.uk is a <span>Good Stuff</span> website.</p>
+      </footer>
+      <!-- End of footer -->
+
     </section>
     <script src="assets/js/main.js"></script>
   </body>
